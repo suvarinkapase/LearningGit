@@ -9,6 +9,12 @@ class Example1
       }
       catch(ArithmeticException e){
          System.out.println ("You Shouldn't divide a number by zero");
+
       }
+     catch(NullPointerException e){
+         System.out.println ("NullPointerException ");
+
+      }
+      
    }
 }
